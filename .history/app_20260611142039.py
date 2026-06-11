@@ -20,7 +20,7 @@ def spam_email_check(email):
 
 # email = "XXXMobileMovieClub: To use your credit, click the WAP link in the next txt message or click here>> http://wap. xxxmobilemovieclub.com?n=QJKGIGHJJGCBL"
 
-not_spam_email = "Subject: re : bei enron  gordian kemen on 03 / 15 / 2000 09 : 13 : 47 am  to : jens . gobel @ enron . com  cc :  subject : career opportunities @ enron  hi vince ,  following up to our chat on the phone .  gordian kemen will be arriving in austin on the 16 th . he will be staying in  austin for 2 weeks . he would very much appreciate to have the opportunity to  have a talk with you to find out if there is a place for him at enron . you  can reach him under ( 512 ) 301 - 9819 ( his parents in law ' s phone number ) .  thanks a lot for you help and attention ,  jens  - gordianresume . pdf"
+not_spam_email = "Sorry, I'll call later in meeting."
 
 
 print(spam_email_check(not_spam_email))
