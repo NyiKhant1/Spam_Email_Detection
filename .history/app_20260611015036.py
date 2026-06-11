@@ -18,7 +18,7 @@ def spam_email_check(email):
     return "Spam" if prediction == 1 else "Not Spam"
 
 
-email = "WINNER!! As a valued network customer you have been selected to receivea Â£900 prize reward! To claim call 09061701461. Claim code KL341. Valid 12 hours only."
+email = ""
 
 print(spam_email_check(email))
 if __name__ == '__main__':

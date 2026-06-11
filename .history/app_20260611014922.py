@@ -4,7 +4,7 @@ import re
 app = Flask(__name__)
 
 vectorize = pickle.load(open('Data/Model/Vector.pkl','rb'))
-model = pickle.load(open('Data/Model/MODEL2.pkl','rb'))
+model = pickle.load(open('Data/Model/MODEL1.pkl','rb'))
 
 
 def spam_email_check(email):
@@ -20,6 +20,6 @@ def spam_email_check(email):
 
 email = "WINNER!! As a valued network customer you have been selected to receivea Â£900 prize reward! To claim call 09061701461. Claim code KL341. Valid 12 hours only."
 
-print(spam_email_check(email))
+
 if __name__ == '__main__':
     app.run(debug = True)

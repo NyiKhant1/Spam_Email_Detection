@@ -4,7 +4,7 @@ import re
 app = Flask(__name__)
 
 vectorize = pickle.load(open('Data/Model/Vector.pkl','rb'))
-model = pickle.load(open('Data/Model/MODEL2.pkl','rb'))
+model = pickle.load(open('Data/Model/MODEL1.pkl','rb'))
 
 
 def spam_email_check(email):
