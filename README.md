@@ -9,7 +9,7 @@ Spam emails are unsolicited messages that often contain advertisements, phishing
 The model is trained on a labeled email dataset and can predict the class of new email messages through a Flask web application.
 
 ## Project Structure
-Spam_Email_Detection/ │ ├── Data/ │ ├── Model/ │ │ ├── MODEL1.pkl │ │ ├── MODEL2.pkl │ │ ├── MODEL3.pkl │ │ └── Vector.pkl │ │ │ └── Raw/ │ └── emails.csv │ ├── NoteBook/ │ └── notebook.ipynb │ ├── SRC/ │ ├── data_loader.py │ └── preprocessor.py │ ├── app.py └── README.md
+<img width="563" height="666" alt="image" src="https://github.com/user-attachments/assets/7eef9977-be92-43ab-b294-cccaf9db1559" />
 
 ## Technology Used 
 
